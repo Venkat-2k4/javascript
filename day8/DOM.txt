@@ -1,0 +1,27 @@
+                            DOM
+                              |
+                            Window --root element
+                               |
+    ----------------------------------------------------
+    |       |       |       |           |       |       |                            
+    Screen history fetch navigator navigation storage DOM
+
+            DOM
+             |
+        document
+             |
+         ----------
+          |        |
+        Head       Body 
+          |          |
+       ======        |
+       |     |     all other tags
+     title  meta
+
+
+DOM
+it is an object 
+it is an api provided by Window
+having root element document
+
+life span until page reload
