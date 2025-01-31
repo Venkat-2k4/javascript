@@ -1,0 +1,25 @@
+JSON --> javascript object notation
+---------------------------------------
+--> its a plain text file used to store data in the 
+form of key and value pairs
+where all the keys are enclosed inside a double qoutes
+--> two methods
+ 1) stringify()
+    ==> converts object to JSON format
+
+ 2)parse()
+    ==> converts JSON to object format
+
+
+how to create a json 
+----------------------------------------
+step 1 :-
+    create a .json file
+
+step 2 :-
+    create a data in form of keys and values and keys should be enclosed inside double qoutes 
+    has a value and must not use undefined and function data-type
+
+
+    in json we will create array of objects 
+    [{},{},{},.....]  
