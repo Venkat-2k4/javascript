@@ -134,3 +134,40 @@ let demo = ()=>{
         <h1> I am the class based component </h1>   
     )
 }
+
+creating elements in js
+---------------------------------
+let h1 = document.createElement("h1")
+h1.innerText  = "Hello";
+
+React 
+---------------------------------
+React.createElement("tag-name" ,"null or {id:"demo}","content")
+
+React.createELement("div ",{id:"demo"},React.createElement("span", "null","Hello")  )
+
+
+JSX ----------------
+
+-->it is used to create html in React 
+-->it is neither string nor html
+
+rules:-
+    1)all the should be enclosed 
+        ex:<h1 />
+    2)if theres more than one element then it should be wrapped inside the parent element or <></>
+        ex:
+        <>
+            <h1> hello </h1>
+            <h1>world</h1> 
+        </>
+    3)use {} for writing expression and javaScript 
+        <p> {data}</p>
+
+
+props in react -------------------------
+    -->props stand for properties
+    --> used to send data from one component to another component
+    --> props are undirectional
+    -->props are immutable(read only)
+    
