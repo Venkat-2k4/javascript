@@ -6,12 +6,14 @@ import Cbc from './components/Cbc.jsx'
 import Fbc from './components/Fbc.jsx'
 import Demo from './components/Demo.jsx'
 import Parent from './props/Parent.jsx'
+import PFC from './props/PFC.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Cbc />
+    {/* <Cbc />
     <Fbc />
     <Demo />
-    <Parent />
+    <Parent /> */}
+    <PFC/>
   </StrictMode>,
 )
