@@ -171,3 +171,13 @@ props in react -------------------------
     --> props are undirectional
     -->props are immutable(read only)
     
+
+states in reaact  -------------------------------
+
+
+    -->State is used to store data in the component and update that data in the component
+    -->States are mutabale (we can read and write )
+    import {useState} from "react" 
+    const [state ,setState ] = useState(initial)
+    state --> used to stor initial value
+    useState() --> used to update state value
