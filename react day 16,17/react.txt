@@ -181,3 +181,43 @@ states in reaact  -------------------------------
     const [state ,setState ] = useState(initial)
     state --> used to stor initial value
     useState() --> used to update state value
+
+
+styling in react ----------------------------------------
+    -->1) inline css
+    -->2) glabally css
+    -->3) external css!!!!!!!!!!!!
+    
+useRef hook in react----------------------------------------
+    --> useRef stands for reference
+    -->uses the real dom 
+    -->useRef is having a object called current
+    --> uses ref keyword
+    -->used in uncontrolled form 
+
+    SYNTAXXXX:
+        const ref = useRef(initialValue)
+
+note : hooks are introduced in 16.8 version of react
+    -->hooks are used to add state and lifecycle methods in functional components
+    -->useState,useEffect,useRef,useContext,useReducer,useMemo,useCallback,useImperativeHandle,useLayoutEffect,useDebugValue
+
+list and keys in react 
+-------------------------
+    -->list is used to iterate an array using map method 
+    -->keys are used to track an element in the list 
+    --> using keys will understand which element is created ,updated or deleted
+
+advantages of keys 
+    --> improves components effiiciency 
+    --> imporves optimization of the browser
+    --> faster rendering
+    -->tracking elements
+    -->unique keys
+
+    SYNTAX:
+        <ul>
+            {data.map((item,index)=>{
+                return <li key={index}>{item}</li>
+            })}
+        </ul>
