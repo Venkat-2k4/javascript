@@ -221,3 +221,15 @@ advantages of keys
                 return <li key={index}>{item}</li>
             })}
         </ul>
+
+useContext hook in react 
+--------------------------------
+    -->useContext is used to pass data from parent to child component
+    -->useContext is used to avoid prop drilling
+    -->useContext is used to avoid passing props to each component
+
+    SYNTAX:
+        const value = useContext(context)
+        <context.Provider value={data}>
+            <childComponent />
+        </context.Provider>
