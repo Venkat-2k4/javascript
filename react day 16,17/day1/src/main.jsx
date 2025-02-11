@@ -1,7 +1,7 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
-// import App from './App.jsx'
+import App from './App.jsx'
 // import Cbc from './components/Cbc.jsx'
 // import Fbc from './components/Fbc.jsx'
 // import Demo from './components/Demo.jsx'
@@ -14,7 +14,8 @@ import './index.css'
 // import External from './styles/External.jsx'
 // import Ref from './useRef/Ref.jsx'
 // import List from './list-keys/List.jsx'
-import Comp3 from './list-keys/Comp3.jsx'
+// import Comp3 from './list-keys/Comp3.jsx'
+import CompA from './useContext/CompA.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -30,6 +31,7 @@ createRoot(document.getElementById('root')).render(
     {/* <External/> */}
     {/* <Ref/> */}
     {/* <List /> */}
-    <Comp3 />
+    {/* <Comp3 /> */}
+    <CompA />
   </StrictMode>,
 )
