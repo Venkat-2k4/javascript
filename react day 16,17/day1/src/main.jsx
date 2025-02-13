@@ -16,6 +16,8 @@ import App from './App.jsx'
 // import List from './list-keys/List.jsx'
 // import Comp3 from './list-keys/Comp3.jsx'
 import CompA from './useContext/CompA.jsx'
+import UseEffect from './useEffect/UseEffect.jsx'
+import UseEffectApi from './useEffect/UseEffectApi.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -32,6 +34,8 @@ createRoot(document.getElementById('root')).render(
     {/* <Ref/> */}
     {/* <List /> */}
     {/* <Comp3 /> */}
-    <CompA />
+    {/* <CompA />
+    <UseEffect /> */}
+    <UseEffectApi />
   </StrictMode>,
 )

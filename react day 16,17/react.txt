@@ -265,3 +265,40 @@ useContext hook in react
         cbf
         }
     </identifierName.consumer>
+
+
+    useEffect 
+    ----------------------
+    advantages: 
+        used for updating dom 
+        used for fetching data
+        used for timer
+        
+    --> useEffect is used to perform side effects in the functional component
+    -->avoids react life cycle in cbc 
+
+
+    SYNTAX:
+        useEffect(()=>{
+            //code
+        },[dependencies]);
+
+    dependencies:
+        -->if dependencies are empty then it will run only once
+        -->if dependencies are not empty then it will run whenever the dependencies are changed
+        -->if dependencies are not given then it will run whenever the component is updated 
+
+
+browser routes in reaact 
+----------------------------------
+    --> is is a Library.
+    --> is is used to interact one component to multiple component.
+    --> it is used to link one component to another component without page reloading.
+    --> Routes is a pre-defined component used to wrap Route.
+    --> Route id pre-defined component used for routing purpose.
+    --> Browser Router is a pre-default component used to wrap Routes.
+    --> useParmes() hook it is used to target.
+    --> useNavigate() it is used to navigate component.
+    -->useParams() it is used to get the parameters from the url.
+    --><Link></Link> it is used to link the component.
+    --><outlet></outlet> it is used as placeholder
