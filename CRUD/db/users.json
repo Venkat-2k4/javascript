@@ -1,9 +1,15 @@
 {
-    "users" :[
-        {
-            "name":"Venkat",
-            "id" : 1,
-            "role " :"Next Developer"
-        }
-    ]
+  "users": [
+    {
+      "name": "Venkat",
+      "id": "1",
+      "role": "Next Developer",
+      "role ": "Next Developer"
+    },
+    {
+      "id": "2",
+      "name": "annaram",
+      "role": "Dev ops"
+    }
+  ]
 }
